@@ -36,3 +36,12 @@ while rounds_played < max_rounds and player_score < 3 and computer_score < 3:
             computer_score += 1
 
         print(f"Score — You: {player_score}, Computer: {computer_score}\n")
+
+if player_score > computer_score:
+    print("🎉 You won the match!")
+elif computer_score > player_score:
+    print("💻 Computer won the match!")
+else:
+    print("It's an overall tie!")
+
+print(f"Final score — You: {player_score}, Computer: {computer_score}")
